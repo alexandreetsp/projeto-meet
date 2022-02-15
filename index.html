@@ -5,20 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
    <header>
-    <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
-        <defs>
-          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" style="stop-color: rgb(0, 0, 0);"></stop>
-            <stop offset="100%" style="stop-color: rgb(0, 2, 114);"></stop>
-          </linearGradient>
-        </defs>
-        <path id="blob" d="M413,278Q422,306,420,339Q418,372,402.5,405Q387,438,349.5,439.5Q312,441,281,424Q250,407,225,405Q200,403,179,389.5Q158,376,110,381.5Q62,387,59.5,350Q57,313,59.5,281.5Q62,250,42,213Q22,176,66.5,162.5Q111,149,123,120.5Q135,92,161,73.5Q187,55,218.5,47.5Q250,40,278,58.5Q306,77,329,93.5Q352,110,388.5,116.5Q425,123,424,158.5Q423,194,413.5,222Q404,250,413,278Z" fill="url(#gradient)"></path>
-      </svg>
+    <div class="blob_sizes">
+        <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90em" id="blobSvg">
+            <defs>
+              <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color: rgb(0, 0, 0);"></stop>
+                <stop offset="100%" style="stop-color: rgb(0, 2, 114);"></stop>
+              </linearGradient>
+            </defs>
+          <path id="blob" d="M413,278Q422,306,420,339Q418,372,402.5,405Q387,438,349.5,439.5Q312,441,281,424Q250,407,225,405Q200,403,179,389.5Q158,376,110,381.5Q62,387,59.5,350Q57,313,59.5,281.5Q62,250,42,213Q22,176,66.5,162.5Q111,149,123,120.5Q135,92,161,73.5Q187,55,218.5,47.5Q250,40,278,58.5Q306,77,329,93.5Q352,110,388.5,116.5Q425,123,424,158.5Q423,194,413.5,222Q404,250,413,278Z" fill="url(#gradient)"></path>
+        </svg>
+    </div>
+
+    <div class="image_main">
+      <img src="itensPng/reuniao.png" alt="Imagem da reunião" style="max-width:200em; max-height:26em; width: auto; height: auto;">
+    </div>
+
+    <div class="name_PainelAulas_online">
+      <img src="itensPng/nomePainel.png" alt="Painel de Aulas Online">
+    </div>
+
+    <div class="subtitle_name_painelAulas">
+      Abaixo encontra-se o painel com as turmas de ensino fundamental
+      <p>e ensino médio. Clique em uma das duas opções para ser redirecionado.</p>
+      Clique em "<span class="yellow">acessar</span>" para assistir sua aula.
+    </div>
+
+    <div class="buttons_options">
+      <button class="font_button Button1">Aulas Ensino Fundamental</button>
+      <button class="font_button Button2">Aulas Ensino Médio</button>
+    </div>
+
+    <div class="logo_cev">
+      <img src="itensPng/logoCev.png" alt="Logo grupo cev">
+    </div>
+
+    <div class="logo_meet">
+      <img src="itensPng/logo.meetCev.png" alt="Logo google meet" style="max-width:200em; max-height:3em; width: auto; height: auto;">
+    </div>
+
+    <div class="ref_site_cev">
+      <a href="">Grupocev.com</a> 
+    </div>
    </header>
+<!--
+  <div class="cards">
+
+    <div class="card">
+        <img src="itensPng/capas/1EF.png" alt="1º ano Ensino Fundamental">
+    </div>
+
+  </div>
+-->
 </body>
 
 <script src="script.js"></script>
