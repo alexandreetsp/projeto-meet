@@ -152,6 +152,42 @@
     left: 71em;
 }
 
+.card_7{
+    position: absolute;
+    top: 99em;
+    left: 7em;
+}
+
+.card_8{
+    position: absolute;
+    top: 99em;
+    left: 39em;
+}
+
+.card_9{
+    position: absolute;
+    top: 99em;
+    left: 71em;
+}
+
+.card_10{
+    position: absolute;
+    top: 119em;
+    left: 7em;
+}
+
+.card_11{
+    position: absolute;
+    top: 119em;
+    left: 39em;
+}
+
+.card_12{
+    position: absolute;
+    top: 119em;
+    left: 71em;
+}
+
 .content{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
@@ -170,4 +206,12 @@
     width: 10em;
     height: 2em;
     color: white;
+}
+
+.ID_ensino_fundamental{
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    z-index: 1;
+    top: 33em;
+    left: 33em;
 }
